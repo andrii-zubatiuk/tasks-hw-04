@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+.list-nav {
+  all: unset;
+  list-style: none;
+  display: flex;
+}
+
+.list-item + .list-item {
+  margin-left: 12px;
+}
+
+.list-nav .nav-unit {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+.list-nav .nav-unit:hover,
+.list-nav .nav-unit:focus {
+  color: #2196f3;
+}
